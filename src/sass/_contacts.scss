@@ -29,19 +29,18 @@
 .contacts-container{
         padding-top: 34px;
         padding-bottom: 34px;
-        // width: 100%;
         align-items: flex-end;
 }
 @media screen and (min-width: 1024px) {
         .contacts-container{
                 display: flex;
                 flex-direction: column;
-                padding-top: 56px;
-                padding-bottom: 0.7;
                 flex-wrap: wrap;
                 flex-direction: row;
                 padding-top: 65px;
-                padding-bottom: 44px;        }
+                padding-bottom: 44px;  
+                padding-right: 42px;      
+        }
 }
 @media screen and (min-width: 1280px){
         .contacts-container {
@@ -55,7 +54,7 @@
         font-weight: 600;
         font-size: 16px;
         line-height: 1.25;
-        letter-spacing: 0.02em;
+        // letter-spacing: 0.02em;
         color: #5F5F5F;
         margin-bottom: 16px;
 }
@@ -261,17 +260,15 @@
 }
 @media screen and (min-width: 1024px){
         .contact-map{
-                display: block;
                 width: 535px;
                 height: 412px;
-                margin-left: 103px;
+                margin-left: 105px;
                 box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
                 border-radius: 2px;
         }
 }
 @media screen and (min-width: 1280px){
         .contact-map{
-                display: block;
                 width: 634px;
                 margin-left: 108px;
                 margin-bottom: 0px;
@@ -281,14 +278,12 @@
 }
 @media screen and (min-width: 1024px){
         .contacts-group{
-                display: block;
                 width: 292px;
         }
 }
 
 @media screen and (min-width: 1280px){
         .contacts-group {
-                display: block;
                 width: 368px;
         }
 }
